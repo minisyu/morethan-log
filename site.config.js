@@ -1,5 +1,4 @@
 const SECOND = 1;
-const HOUR = SECOND * 60 * 60;
 
 const CONFIG = {
   // profile setting (required)
@@ -65,7 +64,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: HOUR, // revalidate time for [slug], index
+  revalidateTime: SECOND * 60, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
