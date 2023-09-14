@@ -3,8 +3,8 @@ const SECOND = 1;
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "awesomehill",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    name: "minisyu",
+    image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
     bio: "햇병아리 개발자🐥",
     email: "",
@@ -20,7 +20,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "awesomehill.farm",
+    title: "minisyu.dev",
     description: "Hello World",
   },
 
